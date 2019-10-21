@@ -1,0 +1,30 @@
+@import '../../variables';
+
+nav{
+    background: $main-theme-color;
+    color: $light-text;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    @media (max-width: 700px){
+        justify-content: space-around;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 20%;
+        li{
+            list-style: none;
+            font-size: 1.2em;
+            a{
+                text-decoration: none;
+                color: $light-text;
+                padding: 15px;
+                &:hover{
+                    color: $light-text-hover;
+                }
+            }
+        }
+    }
+}

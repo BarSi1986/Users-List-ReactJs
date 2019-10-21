@@ -1,0 +1,51 @@
+@import '../../../variables';
+
+.list-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    li{
+        flex-basis: 17%;
+        list-style: none;
+        border: solid 1px $main-theme-pale-color;
+        margin: 10px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: .2s;
+        img{
+            border-radius: 50%;
+            border: solid 1px $main-theme-pale-color;
+        }
+        p{
+            margin-top: 15px;
+        }
+        &:hover{
+            background: $main-theme-color;
+            color: $light-text;
+        }
+        a{
+            margin-top: 10px;
+            text-decoration: none;
+            transition: .2s;
+            button{
+                width: 110px;
+                height: 35px;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                border: none;
+                transition: .2s;
+                font-weight: 500;
+                &:hover{
+                    background: $main-theme-pale-color;
+                    color: $light-text;
+                }
+    
+            }
+
+        }
+
+    }
+}

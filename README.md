@@ -1,5 +1,5 @@
 
-## Users List App
+## `Users List App`
 
 simple user list aplication which lets you get more details about each user by clicking the button right below avatar.
 
@@ -10,7 +10,7 @@ It uses [random user API](https://randomuser.me/) to fetch random users based on
  - number of users, which is set to 500
  - nationality, set to Great Britain
 
-### `SEARCH BY USER LAST NAME feature`
+### `"search by user last name" feature`
 
 Input field lets you to search specific users by their last name.
 
